@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="market" max_length="40" name="x_58872_needit_market" type="collection">
+        <element label="id" max_length="40" name="id" type="string"/>
+        <element choice="1" display="true" label="location_" mandatory="true" max_length="16" name="location" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Riyadh" sequence="0" value="Riyadh"/>
+                <element inactive_on_update="false" label="Jeddah" sequence="1" value="Jeddah"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_string_1" type="string"/>
+    </element>
+</database>
